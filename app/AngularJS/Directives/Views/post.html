@@ -1,0 +1,15 @@
+<div class = "post wrapper">
+  <div class = "post imagewrapper">
+    <img ng-click="openImage(info.img_src)" class = "post image" ng-src = "{{info.img_src}}">
+  </div>
+  <div class = "post rover">
+    <p class = "text_med">{{info.rover.name}} Rover on {{info.earth_date}}</p>
+  </div>
+  <div class = "post camera">
+    <p>{{info.camera.full_name}}</p>
+  </div>
+  <div class = "post like">
+    <input type="checkbox" class="like-btn">
+    <i class="fa fa-heart"></i>
+  </div>
+</div>

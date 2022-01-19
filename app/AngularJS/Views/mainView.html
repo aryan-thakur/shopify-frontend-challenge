@@ -1,0 +1,13 @@
+<div class="main" ng-init="init()">
+  <div class ="title">
+    <h1>Shopify's Spacestagram</h1>
+  </div>
+  <div class="search-bar">
+    <h2>Imagery date: </h2>
+    <input id="search" ng-model="search" type="date" name="search" onchange="angular.element(this).scope().triggerCall(event)">
+  </div>
+  <div class = "photos__wrapper">
+  <post ng-repeat="photo in photos" info ="photo"></post>
+  </div>
+  <div class="loading" ng-show="loader">Loading&#8230;</div>
+</div>
