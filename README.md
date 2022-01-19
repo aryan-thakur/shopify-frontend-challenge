@@ -1,5 +1,5 @@
 # shopify-frontend-challenge
-Shopify's Frontend Challenge.
+Shopify's Frontend Challenge (Spacestagram)
 
 ## Features
 I have added in an animated like button, a loading screen overlay and date picker
