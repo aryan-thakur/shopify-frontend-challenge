@@ -2,7 +2,7 @@
 Shopify's Frontend Challenge (Spacestagram)
 
 ## Website Link
-https://aryan-thakur.github.io/shopify-frontend-challenge/
+https://aryan-thakur.github.io/shopify-frontend-challenge/app
 
 ## Features
 I have added in an animated like button, a loading screen overlay and date picker
